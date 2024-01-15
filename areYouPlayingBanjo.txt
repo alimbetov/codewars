@@ -1,0 +1,8 @@
+function areYouPlayingBanjo(name) {
+ if ( name.startsWith("R") || name.startsWith("r") ){
+   name+=" plays banjo";
+ }else {
+   name += " does not play banjo";
+ }
+  return name;
+}

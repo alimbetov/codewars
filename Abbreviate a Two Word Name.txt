@@ -1,0 +1,11 @@
+function abbrevName(name){
+ let result="";
+  let myArray = name.split(" ");
+    for (let i = 0; i < myArray.length; i++) {
+          if (result!=""){
+            result+= "." 
+          }
+          result+=myArray[i][0].toUpperCase();
+    }
+  return result;
+}
