@@ -1,0 +1,12 @@
+function DNAtoRNA(dna) {
+  let t="";
+  // create a function which returns an RNA sequence from the given DNA sequence
+ for (i = 0; i < dna.length; i++) {
+     if (dna[i]=="T"){
+        t+="U";
+     } else {
+        t+=dna[i];
+     }
+   }
+   return t;
+  }
